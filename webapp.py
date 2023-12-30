@@ -12,6 +12,9 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 # Loading the saved model
 loaded_model = pickle.load(open('final_train.sav', 'rb'))
