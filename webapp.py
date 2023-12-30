@@ -12,6 +12,8 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
+
+import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
