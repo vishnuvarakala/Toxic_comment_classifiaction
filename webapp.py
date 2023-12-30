@@ -14,8 +14,8 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Loading the saved model
-loaded_model = pickle.load(open('D:/Assignments/fall 2023/Jayanth/project/final_train.sav', 'rb'))
-load_tfidf = pickle.load(open('D:/Assignments/fall 2023/Jayanth/project/TF_IDF_file.sav', 'rb'))
+loaded_model = pickle.load(open('https://github.com/vishnuvarakala/Toxic_comment_classifiaction/blob/main/final_train.sav', 'rb'))
+load_tfidf = pickle.load(open('https://github.com/vishnuvarakala/Toxic_comment_classifiaction/blob/main/TF_IDF_file.sav', 'rb'))
 
 
 
